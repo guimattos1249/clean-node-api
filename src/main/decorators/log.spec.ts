@@ -18,7 +18,7 @@ const makeController = (): Controller => {
       return await new Promise(resolve => resolve(httpResponse))
     }
   }
- return new ControllerStub()
+  return new ControllerStub()
 }
 
 const makeSut = (): SutTypes => {
